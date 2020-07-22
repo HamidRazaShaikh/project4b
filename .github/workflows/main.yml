@@ -40,7 +40,7 @@ jobs:
               run : npm install -g surge   
               
             - name : deploying on surge
-              run : surge ./build http://project4B-TinyReactApp-animation.surge.sh/ --token${{secrets.SURGE_TOKEN}}
+              run : surge ./build http://porject4B-hamidraza.surge.sh/ --token${{secrets.SURGE_TOKEN}}
               
               
                 
