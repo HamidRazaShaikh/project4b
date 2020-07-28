@@ -1,0 +1,58 @@
+.cortex-container {
+
+    background-image: linear-gradient(90deg, rgba(75,6,193,1) 0%, rgba(206,2,189,1) 100%);
+    height: 700px;
+}
+
+.heading {
+    font-size: 100px;
+    font-weight: 500px;
+    color : white;
+    font-family: sans-serif;
+    margin-top: 100px;
+
+}
+
+
+.heading2 {
+    font-size: 60px;
+    font-weight: 00px;
+    color : white;
+    font-family: sans-serif;
+    margin-top: -20px;
+    
+}
+
+.heading3 {
+    font-size: 22px;
+    font-weight: 400px;
+    color : white;
+    font-family: sans-serif;
+    margin-top: 25px;
+    padding-right : 130px;
+    padding-left: 140px;
+
+    
+
+}
+
+.printer-image{
+
+
+    top: 20px;
+    position : absolute;
+    height: 650px;
+    width: 650px;
+    
+
+}
+
+
+.brain-image {
+    top : 40px;
+    height: 650xp;
+    width: 650px;
+    position : absolute;
+
+}
+
