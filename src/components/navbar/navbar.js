@@ -15,7 +15,8 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    position : "fixed"
+    position : "fixed",
+    zIndex : 2
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -33,8 +34,8 @@ export default function Navbar() {
       <Accordion className="nav-container">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon style={{ color: "#1eff00" }} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
+          // aria-controls="panel1a-content"
+          // id="panel1a-header"
 
 
         >

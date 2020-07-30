@@ -4,7 +4,7 @@ import printer from "./printer2.svg";
 import brain from "./brain2.svg";
 import shadow from "./shadow.svg";
 import { Grid, Typography } from "@material-ui/core";
-import useWebAnimations from "@wellyshen/use-web-animations";
+import useWebAnimations, {backInUp ,backInLeft}from "@wellyshen/use-web-animations";
 import service6 from '../uxwritting/services-6.svg';
 
 
@@ -23,14 +23,21 @@ export default function Cortex() {
     
   });
 
+  const {ref : cortexAnim}=  useWebAnimations({...backInLeft});
+  const {ref : copywritterAnim}=  useWebAnimations({...backInLeft});
+  const {ref : textAnim}=  useWebAnimations({...backInUp});
+
+
+
+
   return (
     <Grid container className="cortex-container">
       <Grid item xs={6}>
         <Grid container justify="center" alignItems="center" direction="column">
-          <div className="heading1">CORTEX</div>
+          <div ref = {cortexAnim} className="heading1">CORTEX</div>
           <br />
-          <div className="heading2">COPYWRITER</div>
-          <div className="heading3">
+          <div ref = {copywritterAnim} className="heading2">COPYWRITER</div>
+          <div ref = {textAnim} className="heading3">
             Enhance your communications with psychology-based copywriting and UX
             writing
           </div>

@@ -8,12 +8,9 @@ import service7 from "./services-7.svg";
 
 export default function UxWritting() {
 
-    const { ref : animservice6 , getAnimation} = useWebAnimations({...heartBeat});
+    const animservice6 =  useWebAnimations({...heartBeat});
 
-    const play = ()=>{
-      getAnimation().play();
-    };
-
+    
 
 
       
@@ -29,7 +26,7 @@ export default function UxWritting() {
             direction="column"
           >
             <div>
-              <img ref = {animservice6}  onScroll = {play} className="service6" src={service6} alt={""} />
+              <img ref = {animservice6.ref} className="service6" src={service6} alt={""} />
             </div>
           </Grid>
         </Grid>

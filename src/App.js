@@ -10,8 +10,7 @@ function App() {
     <Grid container>
       <Grid item xs = {12}>
       <Navbar/>
-      <Cortex/>
-      <UxWritting/>
+      <Cortex/>      
       </Grid>
       
       

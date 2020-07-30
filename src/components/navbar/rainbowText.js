@@ -186,54 +186,54 @@ export default function RainbowText() {
 
   return (
     <div style = {{display : 'flex' , flexDirection : 'row', boxShadow:20}}>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '200px 200px transparent'}}  ref={ref1}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '200px 200px transparent'}}  ref={ref1}>
         S
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref2}>
+      <Typography style = {{ marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref2}>
         w
       </Typography>
       <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref3}>
         i
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref4}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref4}>
         t
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref5}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref5}>
         c
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref6}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref6}>
         h
   
       </Typography>
       &nbsp;
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref7}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref7}>
         e
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref8}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref8}>
         x
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref9}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref9}>
         p
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref10}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref10}>
         e
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref11}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref11}>
         r
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref12}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref12}>
         i
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref13}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref13}>
         e
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref14}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref14}>
         n
       </Typography>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref15}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref15}>
         c
       </Typography>
-      <Typography style = {{  marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref16}>
+      <Typography style = {{  marginLeft : 0.5 ,fontSize : 20 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref16}>
         e
       </Typography>
       
