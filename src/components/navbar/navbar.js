@@ -34,8 +34,8 @@ export default function Navbar() {
       <Accordion className="nav-container">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon style={{ color: "#1eff00" }} />}
-          // aria-controls="panel1a-content"
-          // id="panel1a-header"
+          aria-controls="panel1a-content"
+        id="panel1a-header"
 
 
         >
