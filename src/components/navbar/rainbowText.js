@@ -186,7 +186,7 @@ export default function RainbowText() {
 
   return (
     <div style = {{display : 'flex' , flexDirection : 'row', boxShadow:20}}>
-      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}  ref={ref1}>
+      <Typography style = {{ marginLeft : 0.5 , fontSize : 18 , fontFamily :'sans-serif', textShadow : '200px 200px transparent'}}  ref={ref1}>
         S
       </Typography>
       <Typography style = {{ marginLeft : 0.5 ,fontSize : 18 , fontFamily :'sans-serif', textShadow : '20px 20px transparent'}}   ref={ref2}>

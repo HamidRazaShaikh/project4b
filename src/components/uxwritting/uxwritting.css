@@ -1,0 +1,44 @@
+.ux-container {
+
+    background-image: linear-gradient(to right, #9803be, #660798);
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 700px;
+}
+
+
+
+.service6{
+     
+    height: 600px;
+    width: 600px ;
+    margin-top: 75px;
+}
+
+.heading {
+    font-weight: 500;
+    text-align: center;
+    font-size: 55px;
+    width: 100%;
+    color : white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-top: 200px;
+    text-align: start;
+}
+
+.text {
+    color : white;
+    font-family: sans-serif;
+    margin: auto;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 200 ;
+    text-align: justify;
+    text-align: start;
+    padding-right: 20px;
+    margin-top:40px
+
+
+}

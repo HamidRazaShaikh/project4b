@@ -2,6 +2,8 @@ import React from 'react';
 import {Grid} from '@material-ui/core';
 import Navbar from './components/navbar/navbar';
 import Cortex from './components/cortex/cortex';
+import UxWritting from './components/uxwritting/uxwritting';
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Grid item xs = {12}>
       <Navbar/>
       <Cortex/>
+      <UxWritting/>
       </Grid>
       
       
