@@ -12,7 +12,7 @@ export default function Cortex() {
   const { ref: brain1 } = useWebAnimations({
     keyframes: {
       transform: "translateY(50px)",
-    },
+        },
     timing: {
       duration: 2000,
       iterations: Infinity,
